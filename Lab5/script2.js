@@ -109,7 +109,6 @@ function getUFPC() {
 	return UFPS;
 }
 
-
 function updateDisplay() {
 	let VAF = (0.65 + 0.01 * getTDI(list)).toFixed(2);
 	let AFPC = (getUFPC() * parseFloat(VAF)).toFixed(2);
